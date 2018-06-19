@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class AuditLogAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $changeType = null;
+    public $changeType = null;
     /** @var string|null */
-    protected $changeDate = null;
+    public $changeDate = null;
     /** @var string|null */
-    protected $changedBy = null;
+    public $changedBy = null;
     /** @var string|null */
-    protected $reasonCode = null;
+    public $reasonCode = null;
     /** @var string|null */
-    protected $comments = null;
+    public $comments = null;
     /** @var string|null */
-    protected $userToken = null;
+    public $userToken = null;
 
     /**
      * @param string|null $changeType

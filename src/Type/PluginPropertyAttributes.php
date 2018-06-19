@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class PluginPropertyAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $key = null;
+    public $key = null;
     /** @var string|null */
-    protected $value = null;
+    public $value = null;
     /** @var bool|null */
-    protected $isUpdatable = null;
+    public $isUpdatable = null;
 
     /**
      * @param string|null $key

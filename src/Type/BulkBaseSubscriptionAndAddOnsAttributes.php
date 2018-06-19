@@ -31,7 +31,7 @@ namespace Killbill\Client\Type;
 class BulkBaseSubscriptionAndAddOnsAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var SubscriptionAttributes[]|null */
-    protected $baseEntitlementAndAddOns = null;
+    public $baseEntitlementAndAddOns = null;
 
     /**
      * @param SubscriptionAttributes[]|null $baseEntitlementAndAddOns

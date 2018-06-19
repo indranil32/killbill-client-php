@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class HostedPaymentPageCustomerAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $firstName = null;
+    public $firstName = null;
     /** @var string|null */
-    protected $lastName = null;
+    public $lastName = null;
     /** @var string|null */
-    protected $email = null;
+    public $email = null;
     /** @var string|null */
-    protected $phone = null;
+    public $phone = null;
 
     /**
      * @param string|null $firstName

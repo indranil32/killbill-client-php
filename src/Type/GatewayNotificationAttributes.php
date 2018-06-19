@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class GatewayNotificationAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $kbPaymentId = null;
+    public $kbPaymentId = null;
     /** @var int|null */
-    protected $status = null;
+    public $status = null;
     /** @var string|null */
-    protected $entity = null;
+    public $entity = null;
     /** @var array|null */
-    protected $headers = null;
+    public $headers = null;
     /** @var array|null */
-    protected $properties = null;
+    public $properties = null;
 
     /**
      * @param string|null $kbPaymentId

@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class TenantAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $tenantId = null;
+    public $tenantId = null;
     /** @var string|null */
-    protected $externalKey = null;
+    public $externalKey = null;
     /** @var string|null */
-    protected $apiKey = null;
+    public $apiKey = null;
     /** @var string|null */
-    protected $apiSecret = null;
+    public $apiSecret = null;
 
     /**
      * @param string|null $tenantId

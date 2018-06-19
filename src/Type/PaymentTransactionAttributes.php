@@ -31,39 +31,39 @@ namespace Killbill\Client\Type;
 class PaymentTransactionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $transactionId = null;
+    public $transactionId = null;
     /** @var string|null */
-    protected $transactionExternalKey = null;
+    public $transactionExternalKey = null;
     /** @var string|null */
-    protected $paymentId = null;
+    public $paymentId = null;
     /** @var string|null */
-    protected $paymentExternalKey = null;
+    public $paymentExternalKey = null;
     /** @var string|null */
-    protected $transactionType = null;
+    public $transactionType = null;
     /** @var float|null */
-    protected $amount = null;
+    public $amount = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var float|null */
-    protected $processedAmount = null;
+    public $processedAmount = null;
     /** @var string|null */
-    protected $processedCurrency = null;
+    public $processedCurrency = null;
     /** @var string|null */
-    protected $status = null;
+    public $status = null;
     /** @var string|null */
-    protected $gatewayErrorCode = null;
+    public $gatewayErrorCode = null;
     /** @var string|null */
-    protected $gatewayErrorMsg = null;
+    public $gatewayErrorMsg = null;
     /** @var string|null */
-    protected $firstPaymentReferenceId = null;
+    public $firstPaymentReferenceId = null;
     /** @var string|null */
-    protected $secondPaymentReferenceId = null;
+    public $secondPaymentReferenceId = null;
     /** @var PluginPropertyAttributes[]|null */
-    protected $properties = null;
+    public $properties = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $transactionId

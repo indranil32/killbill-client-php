@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class LimitAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $unit = null;
+    public $unit = null;
     /** @var string|null */
-    protected $max = null;
+    public $max = null;
     /** @var string|null */
-    protected $min = null;
+    public $min = null;
 
     /**
      * @param string|null $unit

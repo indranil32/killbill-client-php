@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class BillingExceptionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $className = null;
+    public $className = null;
     /** @var int|null */
-    protected $code = null;
+    public $code = null;
     /** @var string|null */
-    protected $message = null;
+    public $message = null;
     /** @var string|null */
-    protected $causeClassName = null;
+    public $causeClassName = null;
     /** @var string|null */
-    protected $causeMessage = null;
+    public $causeMessage = null;
     /** @var StackTraceElementAttributes[]|null */
-    protected $stackTrace = null;
+    public $stackTrace = null;
 
     /**
      * @param string|null $className

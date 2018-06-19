@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class PaymentMethodPluginDetailAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $externalPaymentMethodId = null;
+    public $externalPaymentMethodId = null;
     /** @var bool|null */
-    protected $isDefaultPaymentMethod = null;
+    public $isDefaultPaymentMethod = null;
     /** @var PluginPropertyAttributes[]|null */
-    protected $properties = null;
+    public $properties = null;
 
     /**
      * @param string|null $externalPaymentMethodId

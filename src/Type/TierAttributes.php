@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class TierAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var TieredBlockAttributes[]|null */
-    protected $tiers = null;
+    public $tiers = null;
     /** @var LimitAttributes[]|null */
-    protected $limits = null;
+    public $limits = null;
     /** @var PriceAttributes[]|null */
-    protected $fixedPrice = null;
+    public $fixedPrice = null;
     /** @var PriceAttributes[]|null */
-    protected $recurringPrice = null;
+    public $recurringPrice = null;
 
     /**
      * @param TieredBlockAttributes[]|null $tiers

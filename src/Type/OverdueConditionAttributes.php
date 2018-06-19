@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class OverdueConditionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var DurationAttributes|null */
-    protected $timeSinceEarliestUnpaidInvoiceEqualsOrExceeds = null;
+    public $timeSinceEarliestUnpaidInvoiceEqualsOrExceeds = null;
     /** @var mixed|null */
-    protected $controlTagInclusion = null;
+    public $controlTagInclusion = null;
     /** @var mixed|null */
-    protected $controlTagExclusion = null;
+    public $controlTagExclusion = null;
     /** @var int|null */
-    protected $numberOfUnpaidInvoicesEqualsOrExceeds = null;
+    public $numberOfUnpaidInvoicesEqualsOrExceeds = null;
     /** @var mixed|null */
-    protected $responseForLastFailedPayment = null;
+    public $responseForLastFailedPayment = null;
     /** @var float|null */
-    protected $totalUnpaidInvoiceBalanceEqualsOrExceeds = null;
+    public $totalUnpaidInvoiceBalanceEqualsOrExceeds = null;
 
     /**
      * @param DurationAttributes|null $timeSinceEarliestUnpaidInvoiceEqualsOrExceeds

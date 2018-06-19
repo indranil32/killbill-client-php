@@ -31,41 +31,41 @@ namespace Killbill\Client\Type;
 class InvoiceItemAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $invoiceItemId = null;
+    public $invoiceItemId = null;
     /** @var string|null */
-    protected $invoiceId = null;
+    public $invoiceId = null;
     /** @var string|null */
-    protected $linkedInvoiceItemId = null;
+    public $linkedInvoiceItemId = null;
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $childAccountId = null;
+    public $childAccountId = null;
     /** @var string|null */
-    protected $bundleId = null;
+    public $bundleId = null;
     /** @var string|null */
-    protected $subscriptionId = null;
+    public $subscriptionId = null;
     /** @var string|null */
-    protected $planName = null;
+    public $planName = null;
     /** @var string|null */
-    protected $phaseName = null;
+    public $phaseName = null;
     /** @var string|null */
-    protected $usageName = null;
+    public $usageName = null;
     /** @var string|null */
-    protected $itemType = null;
+    public $itemType = null;
     /** @var string|null */
-    protected $description = null;
+    public $description = null;
     /** @var string|null */
-    protected $startDate = null;
+    public $startDate = null;
     /** @var string|null */
-    protected $endDate = null;
+    public $endDate = null;
     /** @var float|null */
-    protected $amount = null;
+    public $amount = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var InvoiceItemAttributes[]|null */
-    protected $childItems = null;
+    public $childItems = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $invoiceItemId

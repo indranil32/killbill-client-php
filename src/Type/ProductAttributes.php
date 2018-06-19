@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class ProductAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $type = null;
+    public $type = null;
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var PlanAttributes[]|null */
-    protected $plans = null;
+    public $plans = null;
     /** @var string[]|null */
-    protected $included = null;
+    public $included = null;
     /** @var string[]|null */
-    protected $available = null;
+    public $available = null;
 
     /**
      * @param string|null $type

@@ -31,47 +31,47 @@ namespace Killbill\Client\Type;
 class SubscriptionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $bundleId = null;
+    public $bundleId = null;
     /** @var string|null */
-    protected $subscriptionId = null;
+    public $subscriptionId = null;
     /** @var string|null */
-    protected $externalKey = null;
+    public $externalKey = null;
     /** @var string|null */
-    protected $startDate = null;
+    public $startDate = null;
     /** @var string|null */
-    protected $productName = null;
+    public $productName = null;
     /** @var string|null */
-    protected $productCategory = null;
+    public $productCategory = null;
     /** @var string|null */
-    protected $billingPeriod = null;
+    public $billingPeriod = null;
     /** @var string|null */
-    protected $phaseType = null;
+    public $phaseType = null;
     /** @var string|null */
-    protected $priceList = null;
+    public $priceList = null;
     /** @var string|null */
-    protected $planName = null;
+    public $planName = null;
     /** @var string|null */
-    protected $state = null;
+    public $state = null;
     /** @var string|null */
-    protected $sourceType = null;
+    public $sourceType = null;
     /** @var string|null */
-    protected $cancelledDate = null;
+    public $cancelledDate = null;
     /** @var string|null */
-    protected $chargedThroughDate = null;
+    public $chargedThroughDate = null;
     /** @var string|null */
-    protected $billingStartDate = null;
+    public $billingStartDate = null;
     /** @var string|null */
-    protected $billingEndDate = null;
+    public $billingEndDate = null;
     /** @var int|null */
-    protected $billCycleDayLocal = null;
+    public $billCycleDayLocal = null;
     /** @var EventSubscriptionAttributes[]|null */
-    protected $events = null;
+    public $events = null;
     /** @var PhasePriceOverrideAttributes[]|null */
-    protected $priceOverrides = null;
+    public $priceOverrides = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $accountId

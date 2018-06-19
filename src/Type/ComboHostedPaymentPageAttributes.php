@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class ComboHostedPaymentPageAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var AccountAttributes|null */
-    protected $account = null;
+    public $account = null;
     /** @var PaymentMethodAttributes|null */
-    protected $paymentMethod = null;
+    public $paymentMethod = null;
     /** @var HostedPaymentPageFieldsAttributes|null */
-    protected $hostedPaymentPageFields = null;
+    public $hostedPaymentPageFields = null;
     /** @var mixed|null */
-    protected $paymentMethodPluginProperties = null;
+    public $paymentMethodPluginProperties = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param AccountAttributes|null $account

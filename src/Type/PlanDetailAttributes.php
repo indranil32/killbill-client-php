@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class PlanDetailAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $product = null;
+    public $product = null;
     /** @var string|null */
-    protected $plan = null;
+    public $plan = null;
     /** @var mixed|null */
-    protected $final_phase_billing_period = null;
+    public $final_phase_billing_period = null;
     /** @var string|null */
-    protected $priceList = null;
+    public $priceList = null;
     /** @var PriceAttributes[]|null */
-    protected $final_phase_recurring_price = null;
+    public $final_phase_recurring_price = null;
 
     /**
      * @param string|null $product

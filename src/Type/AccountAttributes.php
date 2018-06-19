@@ -31,58 +31,57 @@ namespace Killbill\Client\Type;
 class AccountAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var int|null */
-    protected $firstNameLength = null;
+    public $firstNameLength = null;
     /** @var string|null */
-    protected $externalKey = null;
+    public $externalKey = null;
     /** @var string|null */
-    protected $email = null;
+    public $email = null;
     /** @var int|null */
-    protected $billCycleDayLocal = null;
+    public $billCycleDayLocal = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var string|null */
-    protected $parentAccountId = null;
+    public $parentAccountId = null;
     /** @var bool|null */
-    protected $isPaymentDelegatedToParent = null;
+    public $isPaymentDelegatedToParent = null;
     /** @var string|null */
-    protected $paymentMethodId = null;
+    public $paymentMethodId = null;
     /** @var string|null */
-    protected $timeZone = null;
+    public $timeZone = null;
     /** @var string|null */
-    protected $address1 = null;
+    public $address1 = null;
     /** @var string|null */
-    protected $address2 = null;
+    public $address2 = null;
     /** @var string|null */
-    protected $postalCode = null;
+    public $postalCode = null;
     /** @var string|null */
-    protected $company = null;
+    public $company = null;
     /** @var string|null */
-    protected $city = null;
+    public $city = null;
     /** @var string|null */
-    protected $state = null;
+    public $state = null;
     /** @var string|null */
-    protected $country = null;
+    public $country = null;
     /** @var string|null */
-    protected $locale = null;
+    public $locale = null;
     /** @var string|null */
-    protected $phone = null;
+    public $phone = null;
     /** @var string|null */
-    protected $notes = null;
+    public $notes = null;
     /** @var bool|null */
-    protected $isMigrated = null;
+    public $isMigrated = null;
     /** @var bool|null */
-    protected $isNotifiedForInvoices = null;
+    public $isNotifiedForInvoices = null;
     /** @var float|null */
-    protected $accountBalance = null;
+    public $accountBalance = null;
     /** @var float|null */
-    protected $accountCBA = null;
+    public $accountCBA = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
-
+    
     /**
      * @param string|null $accountId
      */
@@ -505,6 +504,18 @@ class AccountAttributes extends \Killbill\Client\AbstractResource
     public function getAuditLogsType()
     {
         return AuditLogAttributes::class;
+    }
+    
+    public $auditLogs = null;
+    
+    public $referenceTime = null;
+    public function setReferenceTime($referenceTime)
+    {
+        $this->referenceTime = $referenceTime;
+    }
+    public function getReferenceTime()
+    {
+        return $this->referenceTime;
     }
 
 }

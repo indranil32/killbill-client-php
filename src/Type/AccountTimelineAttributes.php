@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class AccountTimelineAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var AccountAttributes|null */
-    protected $account = null;
+    public $account = null;
     /** @var BundleAttributes[]|null */
-    protected $bundles = null;
+    public $bundles = null;
     /** @var InvoiceAttributes[]|null */
-    protected $invoices = null;
+    public $invoices = null;
     /** @var InvoicePaymentAttributes[]|null */
-    protected $payments = null;
+    public $payments = null;
 
     /**
      * @param AccountAttributes|null $account

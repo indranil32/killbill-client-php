@@ -31,23 +31,23 @@ namespace Killbill\Client\Type;
 class NodeInfoAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $nodeName = null;
+    public $nodeName = null;
     /** @var string|null */
-    protected $bootTime = null;
+    public $bootTime = null;
     /** @var string|null */
-    protected $lastUpdatedDate = null;
+    public $lastUpdatedDate = null;
     /** @var string|null */
-    protected $kbVersion = null;
+    public $kbVersion = null;
     /** @var string|null */
-    protected $apiVersion = null;
+    public $apiVersion = null;
     /** @var string|null */
-    protected $pluginApiVersion = null;
+    public $pluginApiVersion = null;
     /** @var string|null */
-    protected $commonVersion = null;
+    public $commonVersion = null;
     /** @var string|null */
-    protected $platformVersion = null;
+    public $platformVersion = null;
     /** @var PluginInfoAttributes[]|null */
-    protected $pluginsInfo = null;
+    public $pluginsInfo = null;
 
     /**
      * @param string|null $nodeName

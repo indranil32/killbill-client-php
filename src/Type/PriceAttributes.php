@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class PriceAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var float|null */
-    protected $value = null;
+    public $value = null;
 
     /**
      * @param string|null $currency

@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class NodeCommandPropertyAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $key = null;
+    public $key = null;
     /** @var mixed|null */
-    protected $value = null;
+    public $value = null;
 
     /**
      * @param string|null $key

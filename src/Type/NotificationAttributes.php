@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class NotificationAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $eventType = null;
+    public $eventType = null;
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $objectType = null;
+    public $objectType = null;
     /** @var string|null */
-    protected $objectId = null;
+    public $objectId = null;
 
     /**
      * @param string|null $eventType

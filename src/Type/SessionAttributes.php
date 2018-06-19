@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class SessionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $id = null;
+    public $id = null;
     /** @var string|null */
-    protected $startDate = null;
+    public $startDate = null;
     /** @var string|null */
-    protected $lastAccessDate = null;
+    public $lastAccessDate = null;
     /** @var int|null */
-    protected $timeout = null;
+    public $timeout = null;
     /** @var string|null */
-    protected $host = null;
+    public $host = null;
 
     /**
      * @param string|null $id

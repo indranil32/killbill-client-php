@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class RoleDefinitionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $role = null;
+    public $role = null;
     /** @var string[]|null */
-    protected $permissions = null;
+    public $permissions = null;
 
     /**
      * @param string|null $role

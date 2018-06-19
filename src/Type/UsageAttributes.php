@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class UsageAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $billingPeriod = null;
+    public $billingPeriod = null;
     /** @var TierAttributes[]|null */
-    protected $tiers = null;
+    public $tiers = null;
 
     /**
      * @param string|null $billingPeriod

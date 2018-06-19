@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class PhaseAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $type = null;
+    public $type = null;
     /** @var PriceAttributes[]|null */
-    protected $prices = null;
+    public $prices = null;
     /** @var PriceAttributes[]|null */
-    protected $fixedPrices = null;
+    public $fixedPrices = null;
     /** @var DurationAttributes|null */
-    protected $duration = null;
+    public $duration = null;
     /** @var UsageAttributes[]|null */
-    protected $usages = null;
+    public $usages = null;
 
     /**
      * @param string|null $type

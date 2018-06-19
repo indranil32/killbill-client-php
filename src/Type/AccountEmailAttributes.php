@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class AccountEmailAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $email = null;
+    public $email = null;
 
     /**
      * @param string|null $accountId

@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class BundleAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $bundleId = null;
+    public $bundleId = null;
     /** @var string|null */
-    protected $externalKey = null;
+    public $externalKey = null;
     /** @var SubscriptionAttributes[]|null */
-    protected $subscriptions = null;
+    public $subscriptions = null;
     /** @var BundleTimelineAttributes|null */
-    protected $timeline = null;
+    public $timeline = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $accountId

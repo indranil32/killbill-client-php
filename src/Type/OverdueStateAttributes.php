@@ -31,19 +31,19 @@ namespace Killbill\Client\Type;
 class OverdueStateAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var string|null */
-    protected $externalMessage = null;
+    public $externalMessage = null;
     /** @var int[]|null */
-    protected $daysBetweenPaymentRetries = null;
+    public $daysBetweenPaymentRetries = null;
     /** @var bool|null */
-    protected $disableEntitlementAndChangesBlocked = null;
+    public $disableEntitlementAndChangesBlocked = null;
     /** @var bool|null */
-    protected $blockChanges = null;
+    public $blockChanges = null;
     /** @var bool|null */
-    protected $clearState = null;
+    public $clearState = null;
     /** @var int|null */
-    protected $reevaluationIntervalDays = null;
+    public $reevaluationIntervalDays = null;
 
     /**
      * @param string|null $name

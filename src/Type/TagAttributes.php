@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class TagAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $tagId = null;
+    public $tagId = null;
     /** @var mixed|null */
-    protected $objectType = null;
+    public $objectType = null;
     /** @var string|null */
-    protected $objectId = null;
+    public $objectId = null;
     /** @var string|null */
-    protected $tagDefinitionId = null;
+    public $tagDefinitionId = null;
     /** @var string|null */
-    protected $tagDefinitionName = null;
+    public $tagDefinitionName = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $tagId

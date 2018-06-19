@@ -31,23 +31,23 @@ namespace Killbill\Client\Type;
 class BlockingStateAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $blockedId = null;
+    public $blockedId = null;
     /** @var string|null */
-    protected $stateName = null;
+    public $stateName = null;
     /** @var string|null */
-    protected $service = null;
+    public $service = null;
     /** @var bool|null */
-    protected $blockChange = null;
+    public $blockChange = null;
     /** @var bool|null */
-    protected $blockEntitlement = null;
+    public $blockEntitlement = null;
     /** @var bool|null */
-    protected $blockBilling = null;
+    public $blockBilling = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var mixed|null */
-    protected $type = null;
+    public $type = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $blockedId

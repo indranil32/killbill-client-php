@@ -31,7 +31,7 @@ namespace Killbill\Client\Type;
 class ProfilingDataAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var ProfilingDataAttributesItem[]|null */
-    protected $rawData = null;
+    public $rawData = null;
 
     /**
      * @param ProfilingDataAttributesItem[]|null $rawData

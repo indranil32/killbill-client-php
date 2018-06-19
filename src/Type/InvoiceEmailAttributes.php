@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class InvoiceEmailAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var bool|null */
-    protected $isNotifiedForInvoices = null;
+    public $isNotifiedForInvoices = null;
 
     /**
      * @param string|null $accountId

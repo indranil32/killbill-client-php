@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class SubjectAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $principal = null;
+    public $principal = null;
     /** @var bool|null */
-    protected $isAuthenticated = null;
+    public $isAuthenticated = null;
     /** @var bool|null */
-    protected $isRemembered = null;
+    public $isRemembered = null;
     /** @var SessionAttributes|null */
-    protected $session = null;
+    public $session = null;
 
     /**
      * @param string|null $principal

@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class CustomFieldAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $customFieldId = null;
+    public $customFieldId = null;
     /** @var string|null */
-    protected $objectId = null;
+    public $objectId = null;
     /** @var mixed|null */
-    protected $objectType = null;
+    public $objectType = null;
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var string|null */
-    protected $value = null;
+    public $value = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $customFieldId

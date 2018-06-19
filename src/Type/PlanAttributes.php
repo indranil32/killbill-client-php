@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class PlanAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var mixed|null */
-    protected $billingPeriod = null;
+    public $billingPeriod = null;
     /** @var PhaseAttributes[]|null */
-    protected $phases = null;
+    public $phases = null;
 
     /**
      * @param string|null $name

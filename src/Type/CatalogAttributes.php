@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class CatalogAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var null[]|null */
-    protected $currencies = null;
+    public $currencies = null;
     /** @var ProductAttributes[]|null */
-    protected $products = null;
+    public $products = null;
     /** @var PriceListAttributes[]|null */
-    protected $priceLists = null;
+    public $priceLists = null;
 
     /**
      * @param string|null $name

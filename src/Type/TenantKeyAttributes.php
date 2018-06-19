@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class TenantKeyAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $key = null;
+    public $key = null;
     /** @var string[]|null */
-    protected $values = null;
+    public $values = null;
 
     /**
      * @param string|null $key

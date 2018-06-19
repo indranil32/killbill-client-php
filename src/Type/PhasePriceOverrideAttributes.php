@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class PhasePriceOverrideAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $planName = null;
+    public $planName = null;
     /** @var string|null */
-    protected $phaseName = null;
+    public $phaseName = null;
     /** @var string|null */
-    protected $phaseType = null;
+    public $phaseType = null;
     /** @var float|null */
-    protected $fixedPrice = null;
+    public $fixedPrice = null;
     /** @var float|null */
-    protected $recurringPrice = null;
+    public $recurringPrice = null;
 
     /**
      * @param string|null $planName

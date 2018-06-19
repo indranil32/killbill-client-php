@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class UserRolesAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $username = null;
+    public $username = null;
     /** @var string|null */
-    protected $password = null;
+    public $password = null;
     /** @var string[]|null */
-    protected $roles = null;
+    public $roles = null;
 
     /**
      * @param string|null $username

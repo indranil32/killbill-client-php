@@ -31,19 +31,19 @@ namespace Killbill\Client\Type;
 class PluginInfoAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $bundleSymbolicName = null;
+    public $bundleSymbolicName = null;
     /** @var string|null */
-    protected $pluginKey = null;
+    public $pluginKey = null;
     /** @var string|null */
-    protected $pluginName = null;
+    public $pluginName = null;
     /** @var string|null */
-    protected $version = null;
+    public $version = null;
     /** @var string|null */
-    protected $state = null;
+    public $state = null;
     /** @var bool|null */
-    protected $isSelectedForStart = null;
+    public $isSelectedForStart = null;
     /** @var PluginServiceInfoAttributes[]|null */
-    protected $services = null;
+    public $services = null;
 
     /**
      * @param string|null $bundleSymbolicName

@@ -31,21 +31,21 @@ namespace Killbill\Client\Type;
 class OverdueStateConfigAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var bool|null */
-    protected $isClearState = null;
+    public $isClearState = null;
     /** @var OverdueConditionAttributes|null */
-    protected $condition = null;
+    public $condition = null;
     /** @var string|null */
-    protected $externalMessage = null;
+    public $externalMessage = null;
     /** @var bool|null */
-    protected $blockChanges = null;
+    public $blockChanges = null;
     /** @var bool|null */
-    protected $disableEntitlement = null;
+    public $disableEntitlement = null;
     /** @var mixed|null */
-    protected $subscriptionCancellationPolicy = null;
+    public $subscriptionCancellationPolicy = null;
     /** @var int|null */
-    protected $autoReevaluationIntervalDays = null;
+    public $autoReevaluationIntervalDays = null;
 
     /**
      * @param string|null $name

@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class PluginServiceInfoAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $serviceTypeName = null;
+    public $serviceTypeName = null;
     /** @var string|null */
-    protected $registrationName = null;
+    public $registrationName = null;
 
     /**
      * @param string|null $serviceTypeName

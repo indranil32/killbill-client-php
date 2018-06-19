@@ -31,29 +31,29 @@ namespace Killbill\Client\Type;
 class InvoiceDryRunAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $dryRunType = null;
+    public $dryRunType = null;
     /** @var string|null */
-    protected $dryRunAction = null;
+    public $dryRunAction = null;
     /** @var string|null */
-    protected $phaseType = null;
+    public $phaseType = null;
     /** @var string|null */
-    protected $productName = null;
+    public $productName = null;
     /** @var string|null */
-    protected $productCategory = null;
+    public $productCategory = null;
     /** @var string|null */
-    protected $billingPeriod = null;
+    public $billingPeriod = null;
     /** @var string|null */
-    protected $priceListName = null;
+    public $priceListName = null;
     /** @var string|null */
-    protected $subscriptionId = null;
+    public $subscriptionId = null;
     /** @var string|null */
-    protected $bundleId = null;
+    public $bundleId = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var string|null */
-    protected $billingPolicy = null;
+    public $billingPolicy = null;
     /** @var PhasePriceOverrideAttributes[]|null */
-    protected $priceOverrides = null;
+    public $priceOverrides = null;
 
     /**
      * @param string|null $dryRunType

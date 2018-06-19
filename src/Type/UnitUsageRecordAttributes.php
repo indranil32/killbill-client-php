@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class UnitUsageRecordAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $unitType = null;
+    public $unitType = null;
     /** @var UsageRecordAttributes[]|null */
-    protected $usageRecords = null;
+    public $usageRecords = null;
 
     /**
      * @param string|null $unitType

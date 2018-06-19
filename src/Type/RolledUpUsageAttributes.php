@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class RolledUpUsageAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $subscriptionId = null;
+    public $subscriptionId = null;
     /** @var string|null */
-    protected $startDate = null;
+    public $startDate = null;
     /** @var string|null */
-    protected $endDate = null;
+    public $endDate = null;
     /** @var RolledUpUnitAttributes[]|null */
-    protected $rolledUpUnits = null;
+    public $rolledUpUnits = null;
 
     /**
      * @param string|null $subscriptionId

@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class UsageRecordAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $recordDate = null;
+    public $recordDate = null;
     /** @var int|null */
-    protected $amount = null;
+    public $amount = null;
 
     /**
      * @param string|null $recordDate

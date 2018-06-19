@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class PriceListAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var string[]|null */
-    protected $plans = null;
+    public $plans = null;
 
     /**
      * @param string|null $name

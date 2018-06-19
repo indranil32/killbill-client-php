@@ -31,37 +31,37 @@ namespace Killbill\Client\Type;
 class InvoiceAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var float|null */
-    protected $amount = null;
+    public $amount = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var string|null */
-    protected $status = null;
+    public $status = null;
     /** @var float|null */
-    protected $creditAdj = null;
+    public $creditAdj = null;
     /** @var float|null */
-    protected $refundAdj = null;
+    public $refundAdj = null;
     /** @var string|null */
-    protected $invoiceId = null;
+    public $invoiceId = null;
     /** @var string|null */
-    protected $invoiceDate = null;
+    public $invoiceDate = null;
     /** @var string|null */
-    protected $targetDate = null;
+    public $targetDate = null;
     /** @var string|null */
-    protected $invoiceNumber = null;
+    public $invoiceNumber = null;
     /** @var float|null */
-    protected $balance = null;
+    public $balance = null;
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $bundleKeys = null;
+    public $bundleKeys = null;
     /** @var CreditAttributes[]|null */
-    protected $credits = null;
+    public $credits = null;
     /** @var InvoiceItemAttributes[]|null */
-    protected $items = null;
+    public $items = null;
     /** @var bool|null */
-    protected $isParentInvoice = null;
+    public $isParentInvoice = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param float|null $amount

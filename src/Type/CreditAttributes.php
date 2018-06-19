@@ -31,21 +31,21 @@ namespace Killbill\Client\Type;
 class CreditAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var float|null */
-    protected $creditAmount = null;
+    public $creditAmount = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var string|null */
-    protected $invoiceId = null;
+    public $invoiceId = null;
     /** @var string|null */
-    protected $invoiceNumber = null;
+    public $invoiceNumber = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $description = null;
+    public $description = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param float|null $creditAmount

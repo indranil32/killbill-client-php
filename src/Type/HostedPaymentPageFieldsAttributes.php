@@ -31,7 +31,7 @@ namespace Killbill\Client\Type;
 class HostedPaymentPageFieldsAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var PluginPropertyAttributes[]|null */
-    protected $formFields = null;
+    public $formFields = null;
 
     /**
      * @param PluginPropertyAttributes[]|null $formFields

@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class OverdueAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var int|null */
-    protected $initialReevaluationInterval = null;
+    public $initialReevaluationInterval = null;
     /** @var OverdueStateConfigAttributes[]|null */
-    protected $overdueStates = null;
+    public $overdueStates = null;
 
     /**
      * @param int|null $initialReevaluationInterval

@@ -39,7 +39,17 @@ abstract class AbstractResource implements \JsonSerializable
      */
     public function __construct(LoggerInterface $logger = null)
     {
-        $this->logger = ($logger !== null) ? $logger : new NullLogger();
+        /* $this->logger = ($logger !== null) ? $logger : new NullLogger(); */
+        $this->logger = new \Monolog\Logger('general'); // create the logger
+        $fileHandler = new \Monolog\Handler\StreamHandler('php.log', \Monolog\Logger::INFO);
+        $fileHandler->setFormatter(new \Monolog\Formatter\JsonFormatter); //  attach the formatter to the handler
+        $this->logger->pushHandler($fileHandler); // push the logger to Monolog
+        $fileHandler = new \Monolog\Handler\StreamHandler('php.log', \Monolog\Logger::DEBUG);
+        $fileHandler->setFormatter(new \Monolog\Formatter\JsonFormatter); //  attach the formatter to the handler
+        $this->logger->pushHandler($fileHandler); // push the logger to Monolog
+        $fileHandler = new \Monolog\Handler\StreamHandler('php.log', \Monolog\Logger::ERROR);
+        $fileHandler->setFormatter(new \Monolog\Formatter\JsonFormatter); //  attach the formatter to the handler
+        $this->logger->pushHandler($fileHandler); // push the logger to Monolog
     }
 
     /**

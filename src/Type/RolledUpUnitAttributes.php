@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class RolledUpUnitAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $unitType = null;
+    public $unitType = null;
     /** @var int|null */
-    protected $amount = null;
+    public $amount = null;
 
     /**
      * @param string|null $unitType

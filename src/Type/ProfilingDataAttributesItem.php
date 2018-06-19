@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class ProfilingDataAttributesItem extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $name = null;
+    public $name = null;
     /** @var int|null */
-    protected $startUsec = null;
+    public $startUsec = null;
     /** @var int|null */
-    protected $durationUsec = null;
+    public $durationUsec = null;
     /** @var ProfilingDataAttributesItem[]|null */
-    protected $calls = null;
+    public $calls = null;
 
     /**
      * @param string|null $name

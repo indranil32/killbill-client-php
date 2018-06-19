@@ -31,31 +31,31 @@ namespace Killbill\Client\Type;
 class PaymentAttemptAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $paymentMethodId = null;
+    public $paymentMethodId = null;
     /** @var string|null */
-    protected $paymentExternalKey = null;
+    public $paymentExternalKey = null;
     /** @var string|null */
-    protected $transactionId = null;
+    public $transactionId = null;
     /** @var string|null */
-    protected $transactionExternalKey = null;
+    public $transactionExternalKey = null;
     /** @var string|null */
-    protected $transactionType = null;
+    public $transactionType = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var string|null */
-    protected $stateName = null;
+    public $stateName = null;
     /** @var float|null */
-    protected $amount = null;
+    public $amount = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var string|null */
-    protected $pluginName = null;
+    public $pluginName = null;
     /** @var PluginPropertyAttributes[]|null */
-    protected $pluginProperties = null;
+    public $pluginProperties = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $accountId

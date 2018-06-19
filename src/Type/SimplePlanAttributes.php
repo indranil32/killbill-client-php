@@ -31,23 +31,23 @@ namespace Killbill\Client\Type;
 class SimplePlanAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $planId = null;
+    public $planId = null;
     /** @var string|null */
-    protected $productName = null;
+    public $productName = null;
     /** @var mixed|null */
-    protected $productCategory = null;
+    public $productCategory = null;
     /** @var mixed|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var float|null */
-    protected $amount = null;
+    public $amount = null;
     /** @var mixed|null */
-    protected $billingPeriod = null;
+    public $billingPeriod = null;
     /** @var int|null */
-    protected $trialLength = null;
+    public $trialLength = null;
     /** @var mixed|null */
-    protected $trialTimeUnit = null;
+    public $trialTimeUnit = null;
     /** @var string[]|null */
-    protected $availableBaseProducts = null;
+    public $availableBaseProducts = null;
 
     /**
      * @param string|null $planId

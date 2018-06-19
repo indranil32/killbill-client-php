@@ -31,31 +31,31 @@ namespace Killbill\Client\Type;
 class EventSubscriptionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $eventId = null;
+    public $eventId = null;
     /** @var string|null */
-    protected $billingPeriod = null;
+    public $billingPeriod = null;
     /** @var string|null */
-    protected $effectiveDate = null;
+    public $effectiveDate = null;
     /** @var string|null */
-    protected $plan = null;
+    public $plan = null;
     /** @var string|null */
-    protected $product = null;
+    public $product = null;
     /** @var string|null */
-    protected $priceList = null;
+    public $priceList = null;
     /** @var string|null */
-    protected $eventType = null;
+    public $eventType = null;
     /** @var bool|null */
-    protected $isBlockedBilling = null;
+    public $isBlockedBilling = null;
     /** @var bool|null */
-    protected $isBlockedEntitlement = null;
+    public $isBlockedEntitlement = null;
     /** @var string|null */
-    protected $serviceName = null;
+    public $serviceName = null;
     /** @var string|null */
-    protected $serviceStateName = null;
+    public $serviceStateName = null;
     /** @var string|null */
-    protected $phase = null;
+    public $phase = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $eventId

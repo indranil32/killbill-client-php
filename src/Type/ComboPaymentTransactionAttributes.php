@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class ComboPaymentTransactionAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var AccountAttributes|null */
-    protected $account = null;
+    public $account = null;
     /** @var PaymentMethodAttributes|null */
-    protected $paymentMethod = null;
+    public $paymentMethod = null;
     /** @var PaymentTransactionAttributes|null */
-    protected $transaction = null;
+    public $transaction = null;
     /** @var mixed|null */
-    protected $paymentMethodPluginProperties = null;
+    public $paymentMethodPluginProperties = null;
     /** @var mixed|null */
-    protected $transactionPluginProperties = null;
+    public $transactionPluginProperties = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param AccountAttributes|null $account

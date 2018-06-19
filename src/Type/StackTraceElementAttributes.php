@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class StackTraceElementAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $className = null;
+    public $className = null;
     /** @var string|null */
-    protected $fileName = null;
+    public $fileName = null;
     /** @var int|null */
-    protected $lineNumber = null;
+    public $lineNumber = null;
     /** @var string|null */
-    protected $methodName = null;
+    public $methodName = null;
     /** @var bool|null */
-    protected $nativeMethod = null;
+    public $nativeMethod = null;
 
     /**
      * @param string|null $className

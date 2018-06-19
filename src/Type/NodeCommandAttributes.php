@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class NodeCommandAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var bool|null */
-    protected $systemCommandType = null;
+    public $systemCommandType = null;
     /** @var string|null */
-    protected $nodeCommandType = null;
+    public $nodeCommandType = null;
     /** @var NodeCommandPropertyAttributes[]|null */
-    protected $nodeCommandProperties = null;
+    public $nodeCommandProperties = null;
 
     /**
      * @param bool|null $systemCommandType

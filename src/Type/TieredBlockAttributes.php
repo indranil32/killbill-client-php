@@ -31,13 +31,13 @@ namespace Killbill\Client\Type;
 class TieredBlockAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $unit = null;
+    public $unit = null;
     /** @var string|null */
-    protected $size = null;
+    public $size = null;
     /** @var string|null */
-    protected $max = null;
+    public $max = null;
     /** @var PriceAttributes[]|null */
-    protected $prices = null;
+    public $prices = null;
 
     /**
      * @param string|null $unit

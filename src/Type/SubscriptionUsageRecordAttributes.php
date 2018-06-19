@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class SubscriptionUsageRecordAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $subscriptionId = null;
+    public $subscriptionId = null;
     /** @var string|null */
-    protected $trackingId = null;
+    public $trackingId = null;
     /** @var UnitUsageRecordAttributes[]|null */
-    protected $unitUsageRecords = null;
+    public $unitUsageRecords = null;
 
     /**
      * @param string|null $subscriptionId

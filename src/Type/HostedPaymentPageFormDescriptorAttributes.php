@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class HostedPaymentPageFormDescriptorAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $kbAccountId = null;
+    public $kbAccountId = null;
     /** @var string|null */
-    protected $formMethod = null;
+    public $formMethod = null;
     /** @var string|null */
-    protected $formUrl = null;
+    public $formUrl = null;
     /** @var array|null */
-    protected $formFields = null;
+    public $formFields = null;
     /** @var array|null */
-    protected $properties = null;
+    public $properties = null;
 
     /**
      * @param string|null $kbAccountId

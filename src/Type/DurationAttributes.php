@@ -31,9 +31,9 @@ namespace Killbill\Client\Type;
 class DurationAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var mixed|null */
-    protected $unit = null;
+    public $unit = null;
     /** @var int|null */
-    protected $number = null;
+    public $number = null;
 
     /**
      * @param mixed|null $unit

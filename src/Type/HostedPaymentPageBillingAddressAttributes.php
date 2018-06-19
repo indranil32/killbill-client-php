@@ -31,17 +31,17 @@ namespace Killbill\Client\Type;
 class HostedPaymentPageBillingAddressAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $city = null;
+    public $city = null;
     /** @var string|null */
-    protected $address1 = null;
+    public $address1 = null;
     /** @var string|null */
-    protected $address2 = null;
+    public $address2 = null;
     /** @var string|null */
-    protected $state = null;
+    public $state = null;
     /** @var string|null */
-    protected $zip = null;
+    public $zip = null;
     /** @var string|null */
-    protected $country = null;
+    public $country = null;
 
     /**
      * @param string|null $city

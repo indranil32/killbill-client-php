@@ -31,11 +31,11 @@ namespace Killbill\Client\Type;
 class AdminPaymentAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $lastSuccessPaymentState = null;
+    public $lastSuccessPaymentState = null;
     /** @var string|null */
-    protected $currentPaymentStateName = null;
+    public $currentPaymentStateName = null;
     /** @var string|null */
-    protected $transactionStatus = null;
+    public $transactionStatus = null;
 
     /**
      * @param string|null $lastSuccessPaymentState

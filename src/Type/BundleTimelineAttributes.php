@@ -31,15 +31,15 @@ namespace Killbill\Client\Type;
 class BundleTimelineAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $bundleId = null;
+    public $bundleId = null;
     /** @var string|null */
-    protected $externalKey = null;
+    public $externalKey = null;
     /** @var EventSubscriptionAttributes[]|null */
-    protected $events = null;
+    public $events = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $accountId

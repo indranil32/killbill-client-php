@@ -31,35 +31,35 @@ namespace Killbill\Client\Type;
 class InvoicePaymentAttributes extends \Killbill\Client\AbstractResource
 {
     /** @var string|null */
-    protected $targetInvoiceId = null;
+    public $targetInvoiceId = null;
     /** @var string|null */
-    protected $accountId = null;
+    public $accountId = null;
     /** @var string|null */
-    protected $paymentId = null;
+    public $paymentId = null;
     /** @var string|null */
-    protected $paymentNumber = null;
+    public $paymentNumber = null;
     /** @var string|null */
-    protected $paymentExternalKey = null;
+    public $paymentExternalKey = null;
     /** @var float|null */
-    protected $authAmount = null;
+    public $authAmount = null;
     /** @var float|null */
-    protected $capturedAmount = null;
+    public $capturedAmount = null;
     /** @var float|null */
-    protected $purchasedAmount = null;
+    public $purchasedAmount = null;
     /** @var float|null */
-    protected $refundedAmount = null;
+    public $refundedAmount = null;
     /** @var float|null */
-    protected $creditedAmount = null;
+    public $creditedAmount = null;
     /** @var string|null */
-    protected $currency = null;
+    public $currency = null;
     /** @var string|null */
-    protected $paymentMethodId = null;
+    public $paymentMethodId = null;
     /** @var PaymentTransactionAttributes[]|null */
-    protected $transactions = null;
+    public $transactions = null;
     /** @var PaymentAttemptAttributes[]|null */
-    protected $paymentAttempts = null;
+    public $paymentAttempts = null;
     /** @var AuditLogAttributes[]|null */
-    protected $auditLogs = null;
+    public $auditLogs = null;
 
     /**
      * @param string|null $targetInvoiceId
